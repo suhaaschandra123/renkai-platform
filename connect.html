@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect — RENKAI</title>
+<meta name="description" content="RENKAI — Bridging Potential with Purpose. Strategic career advisory for students, schools, and universities.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>.connect-hero{padding:9rem 3.5rem 6rem;text-align:center;background:var(--off);}.c-form{background:var(--white);border:1px solid var(--border);border-radius:var(--r2);padding:3rem;}.c-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;}.c-input{width:100%;padding:1rem 1.2rem;border:1.5px solid var(--border);border-radius:10px;font-family:var(--font);font-size:.92rem;color:var(--text);background:var(--white);transition:border-color .2s;outline:none;}.c-input:focus{border-color:var(--orange);}.c-input::placeholder{color:var(--soft);}.c-select{appearance:none;cursor:pointer;}.c-textarea{grid-column:1/-1;resize:vertical;min-height:130px;}.c-submit{grid-column:1/-1;}.contact-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-top:3rem;}.cc{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:2rem;text-align:center;transition:border-color .25s,box-shadow .25s,transform .25s;}.cc:hover{border-color:var(--orange);box-shadow:var(--sh);transform:translateY(-3px);}.cc-ico{width:52px;height:52px;background:var(--tint);border-radius:12px;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;transition:background .25s;}.cc:hover .cc-ico{background:var(--tint2);}.cc-ico svg{width:24px;height:24px;stroke:var(--orange);fill:none;stroke-width:1.7;}.cc-lbl{font-size:.63rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-bottom:.4rem;}.cc-val{font-size:.88rem;font-weight:700;color:var(--text);}@media(max-width:900px){.c-form-grid{grid-template-columns:1fr;}.c-textarea{grid-column:1;}.c-submit{grid-column:1;}.contact-3{grid-template-columns:1fr;}.connect-hero{padding:8rem 1.5rem 4.5rem;}}@media(max-width:600px){.connect-hero{padding:7.5rem 1rem 4rem;}}</style>
+</head>
+<body>
+<div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ti">Career Advisory <span class="td"></span></div><div class="ti">Life Design Coaching <span class="td"></span></div><div class="ti">University Strategy <span class="td"></span></div><div class="ti">School Partnerships <span class="td"></span></div><div class="ti">Hyderabad, India <span class="td"></span></div><div class="ti">Creating Thought Leaders <span class="td"></span></div><div class="ti">Grades 8–12 <span class="td"></span></div><div class="ti">renkai.co.in <span class="td"></span></div><div class="ti">Career Advisory <span class="td"></span></div><div class="ti">Life Design Coaching <span class="td"></span></div><div class="ti">University Strategy <span class="td"></span></div><div class="ti">School Partnerships <span class="td"></span></div><div class="ti">Hyderabad, India <span class="td"></span></div><div class="ti">Creating Thought Leaders <span class="td"></span></div><div class="ti">Grades 8–12 <span class="td"></span></div><div class="ti">renkai.co.in <span class="td"></span></div></div></div>
+<nav id="nav"><a class="nav-logo" href="index.html">REN<span class="k">KAI</span></a><div class="nav-links"><a href="about.html">About</a><a href="career-science.html">Career Science</a><a href="schools.html">Schools</a><a href="universities.html">Universities</a><a href="connect.html">Connect</a><a href="connect.html" class="nav-cta">Book Consultation</a></div><button class="hamburger" id="burger"><span></span><span></span><span></span></button></nav>
+<div class="mob" id="mob"><button class="mob-x" id="mobX">&#x2715;</button><a href="about.html">About</a><a href="career-science.html">Career Science</a><a href="schools.html">Schools</a><a href="universities.html">Universities</a><a href="connect.html">Connect</a><a href="connect.html" class="btn btn-f">Book Consultation</a></div>
+
+<div class="connect-hero">
+  <div class="ey ey-c rv">Get in Touch</div>
+  <h1 class="h2p rv d1" style="font-size:clamp(2.4rem,5vw,4.5rem);">Let's Build the<br><span class="ser">Future Together.</span></h1>
+  <p class="lead rv d2" style="margin:.9rem auto 0;text-align:center;">Whether you are a student finding your path, a school building career systems, or a university entering India — RENKAI is your strategic partner.</p>
+</div>
+
+<section class="section">
+  <div class="wrap" style="max-width:780px;">
+    <div class="ey rv">Book a Consultation</div>
+    <h2 class="h2p rv d1">Start the <span class="ser">conversation.</span></h2>
+    <p class="lead rv d2" style="margin-bottom:2.5rem;">Fill in the form below and we will respond within 24 hours to schedule your consultation.</p>
+    <div class="c-form rv d2">
+      <form action="mailto:connect@renkai.co.in" method="POST" enctype="text/plain">
+        <div class="c-form-grid">
+          <input class="c-input" type="text" name="name" placeholder="Your Full Name" required>
+          <input class="c-input" type="email" name="email" placeholder="Email Address" required>
+          <input class="c-input" type="text" name="school" placeholder="School / Organisation (if applicable)">
+          <select class="c-input c-select" name="type">
+            <option value="" disabled selected>I am a...</option>
+            <option>Student</option>
+            <option>Parent</option>
+            <option>School / Principal</option>
+            <option>University Representative</option>
+            <option>Other</option>
+          </select>
+          <textarea class="c-input c-textarea" name="message" placeholder="Tell us what you are looking for — the more context, the better."></textarea>
+          <div class="c-submit">
+            <button type="submit" class="btn btn-f" style="width:100%;justify-content:center;font-size:1rem;">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-off">
+  <div class="wrap" style="text-align:center;max-width:700px;">
+    <div class="ey ey-c rv">Direct Contact</div>
+    <h2 class="h2p rv d1" style="text-align:center;">Reach us <span class="ser">directly.</span></h2>
+    <div class="contact-3">
+      <a href="mailto:connect@renkai.co.in" class="cc rv d1">
+        <div class="cc-ico"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div class="cc-lbl">Email</div>
+        <div class="cc-val">connect@renkai.co.in</div>
+      </a>
+      <a href="https://renkai.co.in" class="cc rv d2">
+        <div class="cc-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div class="cc-lbl">Website</div>
+        <div class="cc-val">renkai.co.in</div>
+      </a>
+      <a href="about.html" class="cc rv d3">
+        <div class="cc-ico"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div class="cc-lbl">Location</div>
+        <div class="cc-val">Hyderabad, India</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="cta-strip">
+  <div class="cta-in">
+    <div class="rv"><p class="cta-ey">Response Within 24 Hours</p><h2 class="cta-h">We're ready when you are.</h2><p class="cta-p">RENKAI consultations are thoughtful, unhurried conversations. There is no hard sell — just an honest exploration of how we can help.</p></div>
+    <a href="mailto:connect@renkai.co.in" class="btn btn-w rv d3">Email Us Directly</a>
+  </div>
+</div>
+<footer><div class="foot-wrap"><div class="foot-top"><div><span class="flogo">REN<span class="k">KAI</span></span><p class="ftag">Bridging Potential with Purpose — strategic career advisory for students, schools, and universities across India.</p><p class="fcerts">UCLA · Stanford Online · Univ. of Melbourne<br>Times Higher Education · CDA · Mindler</p></div><div class="fcol"><div class="fch">Explore</div><a href="about.html">About RENKAI</a><a href="career-science.html">Career Science</a><a href="schools.html">Schools</a><a href="universities.html">Universities</a><a href="connect.html">Connect</a></div><div class="fcol"><div class="fch">Services</div><a href="schools.html">School Partnerships</a><a href="schools.html">Career Workshops</a><a href="career-science.html">Life Design</a><a href="universities.html">India Market Entry</a></div><div class="fcol"><div class="fch">Reach Us</div><a href="mailto:connect@renkai.co.in">connect@renkai.co.in</a><a href="connect.html">Book a Consultation</a><a href="https://renkai.co.in">renkai.co.in</a></div></div><div class="foot-bot"><span class="fcopy">© 2025 RENKAI. All rights reserved. Hyderabad, India.</span><span class="fdomain">renkai.co.in</span></div></div></footer>
+<script src="shared.js"></script>
+</body>
+</html>
